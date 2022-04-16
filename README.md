@@ -19,8 +19,8 @@ then
 ./client.out [KEY] [NICK]
 ```
 
-KEY has to be integer, it is id for message queue.  
-NICK is string - player name.  
+`KEY` - integer, id of the message queue  
+`NICK` - string, player name
 
 ## Example
 ```
@@ -36,6 +36,3 @@ If player hit correct number in correct place in result is 2, if correct color i
 ![Playing game](https://sharex.geniush.ovh/a9ed1/dUTOLUtA73.png/raw)  
 That means we hit number 2, number 5 is in pattern but on other place, 2 and 6 aren't in pattern.
 ![Won game](https://sharex.geniush.ovh/a9ed1/ROkAxiGu89.png/raw)
-
-## License
-Copyright (c) Michał Guźlewski. All rights reserved.
